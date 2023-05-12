@@ -20,7 +20,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
-    "serve": "node server/entry.express",
+    "serve": "ORIGIN=https://qwik-pokeapp-production.up.railway.app node server/entry.express",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
